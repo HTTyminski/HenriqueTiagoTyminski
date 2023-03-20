@@ -17,7 +17,10 @@ export default function SimpleAccordion() {
 
   return (
     <div>
-      <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+      <Accordion expanded={expanded === 'panel1'} 
+      onChange={handleChange('panel1')}
+      onClick={() => handleChange('panel1')}
+    >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1bh-content"
@@ -34,7 +37,7 @@ export default function SimpleAccordion() {
           </div>
         </AccordionDetails>
       </Accordion>
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} onClick={() => handleChange('panel2')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -55,7 +58,7 @@ export default function SimpleAccordion() {
           </div>
         </AccordionDetails>
       </Accordion>
-      <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+      <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')} onClick={() => handleChange('panel3')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3a-content"
