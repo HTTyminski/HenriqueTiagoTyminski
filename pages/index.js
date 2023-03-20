@@ -136,37 +136,39 @@ import SimpleAccordion from './components/accordion/accordion'
               {translate('projects')}
             </p>
           </div>
-          <div className='flex justify-between'>
+          <div className='flex mb-5'>
             <Image 
               src={bellfix} 
-              className="rounded-lg object-cover"
+              className="rounded-lg object-cover "
               width={50}
               height={50}
             />
             <Image 
               src={ericsson} 
-              className="rounded-lg object-cover" 
+              className="rounded-lg object-cover ml-5 " 
               width={50}
               height={50}
             />
             <Image 
               src={nexuz} 
-              className="rounded-lg object-cover"
+              className="rounded-lg object-cover ml-5"
               width={50}
               height={50}
             />
             <Image 
               src={roit} 
-              className="rounded-lg object-cover" 
+              className="rounded-lg object-cover ml-5" 
               width={50}
               height={50}
             />
             <Image 
               src={vegait} 
-              className="rounded-lg object-cover" 
+              className="rounded-lg object-cover ml-5" 
               width={50}
               height={50}
             />
+            </div>
+             <div className='flex '>
             <Image 
               src={gocoffee} 
               className="rounded-lg object-cover" 
@@ -175,19 +177,19 @@ import SimpleAccordion from './components/accordion/accordion'
             />
             <Image 
               src={innovsoftware} 
-              className="rounded-lg object-cover" 
+              className="rounded-lg object-cover ml-5" 
               width={50}
               height={50}
             />
             <Image 
               src={fortiori} 
-              className="rounded-lg object-cover" 
+              className="rounded-lg object-cover ml-5" 
               width={50}
               height={50}
             />
             <Image 
               src={prover} 
-              className="rounded-lg object-cover" 
+              className="rounded-lg object-cover ml-5" 
               width={50}
               height={50}
             />
