@@ -48,8 +48,6 @@ function DataTable() {
         getRowId={(row) => row.id}
         rows={rows}
         columns={columns}
-        pageSize={5}
-        rowsPerPageOptions={[5]}
       />
     </div>
   );
